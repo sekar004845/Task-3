@@ -1,0 +1,27 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+     margin:0 auto;
+	 width:100%;
+}
+section{	
+     background-color:#cfe3e3ba;
+}
+.row{
+	display:flex;
+	}
+img{
+	max-width:60%;
+}
+.box{
+    padding:20px;
+	filter:grayscale(100%);
+}
+.box:hover{
+	filter:grayscale(10%);
+	transform:scale(1.2);
+	transition:all 2s;
+}
